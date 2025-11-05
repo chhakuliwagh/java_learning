@@ -3,7 +3,7 @@ public class LeapY
 	
 	public static void main(String args[])
 	{	
-		int Year=2008;
+		int Year=2005;
 
 		if(Year%4==0)
 		{

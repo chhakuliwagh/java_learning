@@ -1,3 +1,5 @@
+// even number
+
 public class EvenOddNum
 {
 	
