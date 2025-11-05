@@ -4,12 +4,17 @@ class StuDemo
 	String name,course;
 	float fee;
 
+	StuDemo(int rollno,String name)
+		{
+			this.rollno=rollno;
+			this.name=name;
+		}
 	StuDemo(int rollno,String name,String course)
-	{
-		this.rollno=rollno;
-		this.name=name;
-		this.course=course;
-	}
+		{
+			this(rollno,name);  // reusing constructor or constructor chaining
+			this.course=course;
+		}
+	
 	StuDemo(int rollno,String name,String course,float fee)
 		{
 			this(rollno,name,course);  // reusing constructor or constructor chaining
