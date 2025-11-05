@@ -1,3 +1,5 @@
+// constructor chaining
+
 class StuDemo
 {
 	int rollno;

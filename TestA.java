@@ -1,20 +1,20 @@
+// this keyword to return refference of currenct class
+
 class A
 {
-	A getA()
+ 	A getA()
 	{
 		return this;
-	}
+			}
 	void message()
 	{
-		System.out.println("Hello Everyone....");
+		System.out.println("hello everuone:...");
 	}
-
 }
 class TestA
 {
-
 	public static void main(String args[])
 	{
 		new A().getA().message();
-	}
+			}
 }

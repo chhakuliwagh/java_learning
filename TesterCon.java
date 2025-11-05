@@ -8,7 +8,9 @@ void show(int b)
 	{
 		System.out.println("Void show method: "+b);
 		//display();
-		this.display(b);   // current instance of class,, this.dispaly()=dispaly() both callad as corrent class object
+		display(10);
+		this.display(b); 
+  // current instance of class,, this.dispaly()=dispaly() both callad as corrent class object
 	}
 }
 class TesterCon
