@@ -18,6 +18,19 @@ class Circle implements Shape
 		System.out.println("Show Circle");
 	}
 }
+
+class Square implements Shape
+{
+	public void draw()
+	{
+		System.out.println("Drawing Circle");
+	}
+	public void display()
+	{
+		System.out.println("Show Circle");
+	}
+}
+
 class TestInterfaceDemo
 {
 	public static void main(String args[])

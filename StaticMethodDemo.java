@@ -13,8 +13,8 @@ class StaticMethodDemo
 	}
 	static void change()
 	{
-		emp_id=12;
-		ename="Tulsi";
+		//emp_id=12;
+		//ename="Tulsi";
 		cname="FCTS";
 
 	}

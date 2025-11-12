@@ -1,6 +1,7 @@
- //1) reusability
-//2) inheritance it is Is-a kind of relationship   
-//has-a kind of relationship
+ // 1) reusability
+//  2) inheritance it is Is-a kind of relationship   
+//  3)has-a kind of relationship
+//  4) use extend keyword that callad as a Inheritance
 
 
 class Address  

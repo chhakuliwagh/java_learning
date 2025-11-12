@@ -1,10 +1,12 @@
-class StaticVariableDemo2
+//ststic variable 
+
+	class StaticVariableDemo2
 {
 	int count=0;
 	StaticVariableDemo2()
 	{
 		count++;
-		System.out.println(count+1);
+		System.out.println(count);
 	}
 	public static void main(String args[])
 	{
@@ -16,6 +18,6 @@ class StaticVariableDemo2
 	}
 }
 
-//object=stck
+//object=stack
 //variable=heap memory
 //static=class

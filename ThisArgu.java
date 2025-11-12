@@ -19,7 +19,6 @@ class ThisArgu
 	void show()
 	{
 		System.out.println("Show Method executed:");
-
 		display(this);
 	}
 	void info()
@@ -31,6 +30,7 @@ class ThisArgu
 	{
  		ThisArgu t1=new ThisArgu(1,"Sonali");
 		t1.show();
+
 
 		ThisArgu t2=new ThisArgu(2,"Bhavesh");
 		t2.info();
